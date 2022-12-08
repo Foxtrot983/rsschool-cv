@@ -58,5 +58,5 @@ Finished Belarussian State Technical University, have a degree in pedagogics. My
 
 # Languages
 
-Russian (__Native__)
-English (**B1**)
+* Russian (__Native__)
+* English (**B1**)
