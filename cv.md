@@ -48,3 +48,15 @@ function squareSum(numbers){
 }
 ```
 
+# Experience
+
+Have an experience in Django Framework, learn it by myself, had one project on freelance, so my commercial experience is about 3 months 
+
+# Education
+
+Finished Belarussian State Technical University, have a degree in pedagogics. My speciality is automobile transport.
+
+# Languages
+
+Russian (__Native__)
+English (**B1**)
