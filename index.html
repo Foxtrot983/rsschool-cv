@@ -85,29 +85,29 @@
                 Python
             </h3>
             <pre><code>
-                num_map = [(1000, 'M'), (900, 'CM'), (500, 'D'), (400, 'CD'), (100, 'C'), (90, 'XC'),<Br>
-                (50, 'L'), (40, 'XL'), (10, 'X'), (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I')]<Br>
+                num_map = [(1000, 'M'), (900, 'CM'), (500, 'D'), (400, 'CD'), (100, 'C'), (90, 'XC'),
+                (50, 'L'), (40, 'XL'), (10, 'X'), (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I')]
 
-                def solution(n):<Br>
-                    roman = ''<Br>
-                    while n > 0:<Br>
-                        for i, r in num_map:<Br>
-                            while n >= i:<Br>
-                                roman += r<Br>
-                                n -= i<Br>
-                    return roman<Br>
+                def solution(n)
+                    roman = ''
+                    while n > 0:
+                        for i, r in num_map:
+                            while n >= i:
+                                roman += r
+                                n -= i
+                    return roman
             </code></pre>
             <h3>
                 JavaScript
             </h3>
             <p><code>
-                function squareSum(numbers){<Br>
-                    let num = 0<Br>
-                    for (let i=0; i<numbers.length; i++){ <Br>
-                      num = num + numbers[i]**2<Br>
-                    }<Br>
-                    return num;<Br>
-                  }<Br>
+                function squareSum(numbers){
+                    let num = 0
+                    for (let i=0; i<numbers.length; i++){ 
+                      num = num + numbers[i]**2
+                    }
+                    return num;
+                  }
             </code></p>
         </div>
         <div id="exp">
