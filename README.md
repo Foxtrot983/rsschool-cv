@@ -1,1 +1,1 @@
-https://foxtrot983.github.io/rsschool-cv/cv
+https://foxtrot983.github.io/rsschool-cv/
