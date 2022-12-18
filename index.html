@@ -7,6 +7,141 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    Name
+                </li>
+                <li>
+                    Contacts
+                </li>
+                <li>
+                    About Me
+                </li>
+                <li>
+                    Skills
+                </li>
+                <li>
+                    Code Example
+                </li>
+                <li> 
+                    Experience
+                </li>
+                <li>
+                    Education
+                </li>
+                <li> 
+                    Languages
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>My CV</h1>
+        <div class="name">
+            <div class="name-text">
+                <h2>Name:</h2>
+                <p>Uladzislau Fedunou</p>
+            </div>
+            <div class="name-photo">
+                <img src="./65424445.jpeg" alt="there has to be my photo">
+            </div>
+        </div>
+        <div class="contacts">
+            <h2>Contacts:</h2>
+            <p>tg: <i>@liastrot</i> github: foxtrot983</p>
+        <div class="about">
+            <h2>About Me:</h2>
+            <p>
+                My objective is to find a convinient place in my life and i want to change my occupation because tired of being a teacher. Have a little experience in working as backend python developer on freelance but i haven't enough of knowledge to work with a hard tasks, so i quit that job and continued to work on myself. I think my strengths in that i am working hard and also i respect others time and my time.
+            </p>
+        <div id="skills">
+            <h2>Skills:</h2>
+            <ol>
+                <li>
+                    Python 3.10
+                </li>
+                <li>
+                    Django
+                </li>
+                <li>
+                    Django Rest
+                </li>
+                <li>
+                    JavaScript
+                </li>
+                <li>
+                    PostgreSQL
+                </li>
+                <li>
+                    Redis
+                </li>
+            </ol>>
+        <div id="example">
+            <h2>Code Example:</h2>
+            <h3>
+                Python
+            </h3>
+            <p><code>
+                num_map = [(1000, 'M'), (900, 'CM'), (500, 'D'), (400, 'CD'), (100, 'C'), (90, 'XC'),<Br>
+                (50, 'L'), (40, 'XL'), (10, 'X'), (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I')]<Br>
 
+                def solution(n):<Br>
+                    roman = ''<Br>
+                    while n > 0:<Br>
+                        for i, r in num_map:<Br>
+                            while n >= i:<Br>
+                                roman += r<Br>
+                                n -= i<Br>
+                    return roman<Br>
+            </code></p>
+            <h3>
+                JavaScript
+            </h3>
+            <p><code>
+                function squareSum(numbers){<Br>
+                    let num = 0<Br>
+                    for (let i=0; i<numbers.length; i++){ <Br>
+                      num = num + numbers[i]**2<Br>
+                    }<Br>
+                    return num;<Br>
+                  }<Br>
+            </code></p>
+        </div>
+        <div id="exp">
+            <h2>Experience:</h2>
+            <p>
+                Have an experience in Django Framework, learn it by myself, had one project on freelance, so my commercial experience is about 3 months
+            </p>
+        </div>
+        <div class="edu">
+            <h2>Education:</h2>
+            <p>
+                Finished Belarussian State Technical University, have a degree in pedagogics. My speciality is automobile transport.
+            </p>
+        </div>
+        <div class="lang">
+            <h2>Languages:</h2>
+            <ol>
+                <li>
+                    Russian (<b>Native</b>)
+                </li>
+                <li>
+                    English (<b>B1</b>)
+                </li>
+            </ol>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <a href="https://github.com/Foxtrot983">git: foxtrot983</a>
+            <p>Creation date: 2022</p>
+            <a href="https://rs.school/images/rs_school_js.svg">
+                <img src="https://rs.school/images/rs_school_js.svg" 
+                width="250" height="150" alt="courses img">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
